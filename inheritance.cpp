@@ -6,11 +6,11 @@ class Animal{
     public:
         bool alive = true;
     void eat(){
-        cout << "eating...\n";
+        cout << "nom nom nom...\n";
 
     }
 };
-class Dog : public Animal{
+class Dog : public Animal{ 
     public:
     void bark(){
         cout << "wolfing... \n";
